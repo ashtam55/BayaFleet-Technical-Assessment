@@ -2,6 +2,9 @@
 
 This is the nodejs code for Vehicle Management Page.
 
+![Postman1](Screenshot.png)
+![Postman1](Screenshot1.png)
+
 ### Database Schema
 To store the vehicle data shown in the UI, the database schema could include the following table:
 
@@ -49,3 +52,4 @@ For the Vehicle Management system, the API could be structured to handle CRUD op
 - **Security**: API should include authentication and authorization mechanisms to protect sensitive data and operations.
 - **Performance**: For systems with many vehicles or high-frequency updates, consider performance optimization techniques, such as caching frequently accessed data.
 - **Real-Time Updates**: For elements like current speed or location that may change frequently, consider using WebSockets or another real-time technology to push updates to the UI.
+
